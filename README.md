@@ -9,7 +9,7 @@ Run the app.py file inside the master
 
 Based on previous lab exercises, this project provides a stock portfolio suggestion engine for the user.
 
-User will:
+## User will:
 
 Input dollar amount to invest in USD (Minimum is $5000 USD)
 Pick one or two investment strategies:
@@ -20,14 +20,14 @@ Quality Investing
 Value Investing
 The engine needs to assign stocks or ETFs for a selected investment strategy. E.g.
 
-Index Investing strategy could map to the following ETFs:
+#### Index Investing strategy could map to the following ETFs:
 
 Vanguard Total Stock Market ETF (VTI)
 iShares Core MSCI Total Intl Stk (IXUS)
 iShares Core 10+ Year USD Bond (ILTB)
 And
 
-Ethical Investing strategy could map to these stocks:
+####  Ethical Investing strategy could map to these stocks:
 
 Apple (APPL)
 Adobe (ADBE)
@@ -36,7 +36,7 @@ Each strategy must map to at least 3 different stocks/ETFs.
 
  
 
-Output:
+#### Output:
 
 The suggestion engine will output:
 
@@ -46,11 +46,11 @@ The current values (up to the sec via Internet) of the overall portfolio (includ
 A weekly trend of the portfolio value. In order words, keep 5 days history of the overall portfolio value.
  
 
-Decision:
+#### Decision:
 
 Each group needs to decide on various different parts of the project such as:
 
-UI to use
+#### UI to use
 How stocks/ETFs are mapped to investing strategy
 How the money is divided among buying
 How to present the weekly history of the portfolio value
